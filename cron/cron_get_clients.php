@@ -33,7 +33,7 @@ $registry->set('log', $log);
 $config->load('default');
 $config->load('catalog');
 $config->load('admin');
-//$config->load('customer');
+
 
 $customerModel = $registry->get('model_customer_customer');
 
@@ -41,7 +41,6 @@ $customerModel = $registry->get('model_customer_customer');
 $sql = "SELECT * FROM " . DB_PREFIX . "customer c";
 $query = $db->query($sql);
 
-echo ' ..OK!';
 
 $url = 'https://mawonet.retailcrm.ru/api/v5/customers/history';
 $apiKey = 'Tagwz9WWvsLJPoTCyQgYQugmB1XRhyfW';
