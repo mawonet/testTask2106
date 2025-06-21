@@ -13,6 +13,7 @@
 Измененные файлы:
 1. Конфиги (admin/config.php)
 2. cron/cron_get_clients.php
+В корне дамб бд
 
 Время:
 6 часов.
